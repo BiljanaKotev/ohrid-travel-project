@@ -46,3 +46,51 @@ header a {
   text-align: center;
   font-weight: 700;
 }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  gap: 60px;
+  padding: 100px 170px;
+}
+
+footer {
+  color: #ffffff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.7)
+    ),
+    url("../images/footer-pic.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  opacity: 0.6;
+  line-height: 28px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6;
+}
