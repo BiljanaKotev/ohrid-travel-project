@@ -8,6 +8,11 @@ body {
   max-width: 1400px;
 }
 
+.grid {
+  display: grid;
+  gap: 60px;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url("../images/header-img.jpg");
@@ -48,12 +53,10 @@ header a {
   font-weight: 700;
 }
 
-main section {
-  display: grid;
+.main-grid {
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
   padding: 100px 171px;
-  gap: 60px;
   background-color: #ffffff;
 }
 
@@ -94,13 +97,8 @@ main p {
 }
 
 .footer-grid {
-  display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: left;
-  gap: 60px;
   padding: 100px 170px;
 }
 
