@@ -95,6 +95,53 @@ main p {
   color: #272044;
 }
 
+section .secondary {
+  background-color: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.secondary h2 {
+  margin-top: 100px;
+}
+
+.grid-aside-cards {
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 220px;
+  padding-right: 17px;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.aside-img-flex {
+  display: flex;
+  width: 185px;
+}
+
+.aside-content {
+  padding: 32px;
+}
+
+aside {
+  width: 370px;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+aside img {
+  width: 370px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .footer-grid {
   grid-template-columns: 1fr 2fr 2fr;
   text-align: left;
@@ -129,6 +176,7 @@ footer h3 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 footer p {
