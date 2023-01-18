@@ -4,14 +4,45 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url("../images/header-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   color: #ffffff;
+  padding: 180px 0;
+}
+
+header h1 {
+  font-size: 96px;
+  font-weight: 700px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+header a {
+  color: #272044;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 16px 32px;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 700;
 }
