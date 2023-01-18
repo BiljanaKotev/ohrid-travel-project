@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
 }
 
 .container {
@@ -45,6 +46,51 @@ header a {
   line-height: 21px;
   text-align: center;
   font-weight: 700;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  padding: 100px 171px;
+  gap: 60px;
+  background-color: #ffffff;
+}
+
+main img {
+  width: 570px;
+  height: 100%;
+}
+
+main h2 {
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 5px;
+  text-align: left;
+  color: #272044;
+  opacity: 0.7;
+}
+
+main h3 {
+  margin-top: 0;
+  color: #272044;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.7;
+  color: #272044;
 }
 
 .footer-grid {
