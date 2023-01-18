@@ -115,22 +115,17 @@ section .secondary {
   margin-bottom: 100px;
 }
 
-.aside-img-flex {
-  display: flex;
-  width: 185px;
-}
-
-.aside-content {
+.card-content {
   padding: 32px;
 }
 
-aside {
+.card {
   width: 370px;
   background-color: #ffffff;
   margin-top: 50px;
 }
 
-aside img {
+.card img {
   width: 370px;
 }
 
