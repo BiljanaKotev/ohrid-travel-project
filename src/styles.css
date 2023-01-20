@@ -42,6 +42,14 @@ header h3 {
   letter-spacing: 5px;
 }
 
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 header a {
   color: #272044;
   background-color: #ffffff;
@@ -109,38 +117,49 @@ section .secondary {
 
 .grid-cards {
   grid-template-columns: repeat(3, 1fr);
-  padding-left: 220px;
-  padding-right: 17px;
   gap: 30px;
   margin-bottom: 100px;
+  max-width: 100%;
 }
 
 .card-content {
-  padding: 32px;
+  padding-left: 32px;
+  padding-right: 0px;
+  margin-left: 0px;
+  width: 150%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
 }
 
 .card {
-  width: 370px;
   background-color: #ffffff;
   margin-top: 50px;
 }
 
-.card img {
-  width: 370px;
+.card-flex {
+  display: flex;
 }
 
-h4 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0em;
-  text-align: left;
+.card img {
+  width: 100%;
+  height: 246px;
+}
+
+.card.grid {
+  gap: 0;
+  padding: 0;
+}
+
+iframe.embed {
+  width: 100%;
+  height: 246px;
 }
 
 .footer-grid {
   grid-template-columns: 1fr 2fr 2fr;
   text-align: left;
-  padding: 100px 170px;
+  padding: 100px 120px;
 }
 
 footer {
@@ -164,7 +183,6 @@ footer ul {
 
 footer a {
   color: #ffffff;
-  text-decoration: none;
 }
 
 footer h3 {
@@ -185,5 +203,38 @@ footer p {
   .grid {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .main-grid {
+    padding: 100px 30px 30px 30px;
+  }
+
+  header {
+    padding-top: 100px;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 25px;
+  }
+
+  header h3 {
+    margin-top: 0;
+  }
+
+  header a {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .grid-cards {
+    padding: 30px;
+  }
+
+  .footer-grid {
+    padding: 30px;
   }
 }
