@@ -173,6 +173,10 @@ iframe.embed {
   text-decoration: none;
 }
 
+.card-content p {
+  padding-right: 20px;
+}
+
 .gallery-img-container {
   padding-bottom: 100px;
 }
