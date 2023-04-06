@@ -7,7 +7,8 @@ This is a solution to the [SheCodes Advanced Web Development Responsive add on w
 
  ### Screenshot
 
-![Screenshot of news homepage desktop](https://i.postimg.cc/fRLCqzXf/ohrid-travel-project-netlify-app.png?raw=true "Desktop Screenshot")
+![Screenshot of news homepage desktop](/images/biljanakotev.github.io_ohrid-travel-project_.png?raw=true "Desktop Screenshot")
+
 
 - Live Site URL [Add live site URL here] (https://biljanakotev.github.io/ohrid-travel-project/)
 
